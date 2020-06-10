@@ -662,3 +662,7 @@ def post_threadpool_actions(pool, args, expected_filesize, SmartDLObj):
         else:
             SmartDLObj.logger.warning('Hash verification failed.')
             SmartDLObj.try_next_mirror(HashFailedException(os.path.basename(dest_path), hash, SmartDLObj.hash_code))
+
+
+class SmartDLCF(SmartDL):
+    pass

@@ -221,3 +221,4 @@ docs/Makefile
 *.bat
 *.zip
 *.rar
+/venv/
